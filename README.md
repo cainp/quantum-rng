@@ -4,12 +4,12 @@ Este projeto implementa um Gerador de Números Aleatórios Quânticos utilizando
 
 ##  Estrutura do Projeto
 
-[cite_start]O repositório está dividido em duas frentes principais, refletindo o fluxo de desenvolvimento profissional[cite: 17, 18, 50]:
+O repositório está dividido em duas frentes principais, refletindo o fluxo de desenvolvimento profissional[cite: 17, 18, 50]:
 
 ### 1. Pesquisa e Visualização (`notebooks/`)
 Contém o arquivo `.ipynb` utilizado para a fase de experimentação.
 * **Objetivo:** Visualizar o circuito quântico e analisar a distribuição estatística dos resultados através de histogramas.
-* [cite_start]**Uso:** Ideal para aprendizado e demonstração visual da porta Hadamard e da superposição quântica[cite: 71].
+**Uso:** Ideal para aprendizado e demonstração visual da porta Hadamard e da superposição quântica[cite: 71].
 
 ### 2. Produção e Scripting (`src/`)
 Contém o arquivo `generator.py` com a lógica modularizada.
@@ -18,9 +18,9 @@ Contém o arquivo `generator.py` com a lógica modularizada.
 
 ## Fundamentos Quânticos Aplicados
 
-* [cite_start]**Superposição:** Uso da porta **Hadamard (H)** para criar estados equiprováveis[cite: 71].
-* [cite_start]**Álgebra Linear:** Representação de estados através de vetores no espaço de Hilbert e operadores matriciais[cite: 55, 71].
-* [cite_start]**Medição:** Processo de colapso que converte informação quântica em bits clássicos aleatórios[cite: 71].
+* **Superposição:** Uso da porta **Hadamard (H)** para criar estados equiprováveis[cite: 71].
+* **Álgebra Linear:** Representação de estados através de vetores no espaço de Hilbert e operadores matriciais[cite: 55, 71].
+* **Medição:** Processo de colapso que converte informação quântica em bits clássicos aleatórios[cite: 71].
 
 ## 🛠️ Como Rodar o Projeto
 
